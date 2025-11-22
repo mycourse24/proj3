@@ -1,0 +1,108 @@
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+#panel2, #flip2 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel2 {
+  padding: 50px;
+  display: none;
+}
+
+#panel3, #flip3 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel3 {
+  padding: 50px;
+  display: none;
+}
+
+#panel4, #flip4 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel4 {
+  padding: 50px;
+  display: none;
+}
+
+#panel5, #flip5 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel5 {
+  padding: 50px;
+  display: none;
+}
+
+#panel6, #flip6 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel6 {
+  padding: 50px;
+  display: none;
+}
+
+
+#panel7, #flip7 {
+  padding: 5px;
+  text-align: center;
+  background-color: lightblue;
+  border: solid 1px #c3c3c3;
+}
+
+#panel7 {
+  padding: 50px;
+  display: none;
+}
+
+.iimg1 {
+	height: 200px;
+}
+
+.iimg2 {
+	height: 200px;
+}
+
+.iimg3 {
+	height: 200px;
+}
+
+.iimg4 {
+	height: 200px;
+}
+
+.iimg5 {
+	height: 200px;
+}
+
+.iimg6 {
+	height: 200px;
+}
