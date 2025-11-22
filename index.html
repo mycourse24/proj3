@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project 01 - Alfie Resume</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.css">
+	<script src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav id="main-navbar">
+      <ul>
+        <li><a href="index.html">Profile</a></li>
+        <li><a href="bitcoin.html">History of Bitcoin</a></li>
+        <li><a href="trading.html">Crypto trading</a></li>
+		<li><a href="mapfie.html">My Map</a></li>
+      </ul>
+    </nav>
+	
+		<div id="flip7">Click to slide down panel</div>	
+			<div id="panel7">
+			
+				<div id="flip">Bitcoin</div>
+				<div id="panel">
+					<div><img src="image/btc.png" class="iimg1" /></div>
+				</div>
+
+				<div id="flip2">Historty of Bitcoin</div>
+				<div id="panel2">
+					<div><img src="image/history.png" class="iimg2" /></div>
+				</div>
+				
+				<div id="flip3">What is Bitcoin</div>
+				<div id="panel3">
+					<div><img src="image/btcidea.png" class="iimg3" /></div>
+				</div>
+				
+				<div id="flip4">Technical Analysis</div>
+				<div id="panel4">
+					<div><img src="image/techana.png" class="iimg4" /></div>
+				</div>
+				
+				<div id="flip5">What is a Technical Analysis</div>
+				<div id="panel5">
+					<div><img src="image/tech01.png" class="iimg5" /></div>
+				</div>
+				
+				<div id="flip6">Bitcoin Chart</div>
+				<div id="panel6">
+					<div><img src="image/coin.png" class="iimg6" /></div>
+				</div>
+			
+			</div>
+		</div>
+	
+	
+    <h1 class="name">Alfie - Freelance</h1>
+	<div class="box">
+	  <h2>Student at Coursera Web development</h2>
+      <h3>About Me</h3>
+      <p>I am seeking to become a web developer and through my skills as web developer i will help the world and people to solve their problem.</p>
+    </div>
+	
+	<h1 id="interest" >field of Interest </h1>
+	
+	<div class="interest2">
+	  <ul>
+        <li id="exp">Programming</li>
+        <li id="text">History</li>
+        <li id="cyt">Crypto Trading</li>
+		<li id="clickme" onclick="clk()" >Click me</li>
+      </ul>
+	</div>
+	
+	<script>
+	alert("Welcome to my page");
+		
+	var exp = document.getElementById('exp');
+	var mon = document.getElementById('text');
+	var cyt = document.getElementById('cyt');
+	var clickme = document.getElementById('clickme');
+		
+	function clk(){
+		
+		exp.innerHTML = "Explore the following:";
+		mon.innerHTML = "Learn more about bitcoin";
+		cyt.innerHTML = "Crypto Trading guide";
+		clickme.innerHTML = "Find more on Menu";
+			
+		}
+	</script>
+	
+	<script> 
+	$(document).ready(function(){
+		$("#flip").click(function(){
+		$("#panel").slideToggle('slow');
+		});
+	});
+
+	$(document).ready(function(){
+		$("#flip2").click(function(){
+		$("#panel2").slideToggle('slow');
+		});
+	});
+
+	$(document).ready(function(){
+		$("#flip3").click(function(){
+		$("#panel3").slideToggle('slow');
+		});
+	});
+	
+	$(document).ready(function(){
+		$("#flip4").click(function(){
+		$("#panel4").slideToggle('slow');
+		});
+	});
+	
+	
+	$(document).ready(function(){
+		$("#flip5").click(function(){
+		$("#panel5").slideToggle('slow');
+		});
+	});
+	
+	$(document).ready(function(){
+		$("#flip6").click(function(){
+		$("#panel6").slideToggle('slow');
+		});
+	});
+	
+	
+	
+	$(document).ready(function(){
+		$("#flip7").click(function(){
+		$("#panel7").slideToggle('slow');
+		});
+	});
+	
+</script>
+
+</body>
+
+</html>
